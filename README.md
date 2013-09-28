@@ -3,8 +3,8 @@ sendarp
 
 Userland ARP scanner for Microsoft Windows
 
-Created By: Chris Bisnett
-Date: 16NOV08
+**Created By:** Chris Bisnett<br/>
+**Date:** 16NOV08
 
 SendARP is a program designed to take advantage of the ARP protocol to discover
 hosts on a network segment that are otherwise unresponsive to ICMP echo
@@ -30,17 +30,17 @@ the delay.
 Command-line Syntax
 ===================
 
-sendarp.exe [options] Destination [End Destination]
-
-Destination - The IP address to query or the start of the range
-
-End Destination - The last ip address in the range
-
-Option      Description
-    s           Used to specify the IP address of the interface to use
-                as the source when sending ARP requests.
-
-    d           Used to specify a delay between sending ARP requests.
-
-    dr          Used to specify a random delay between 0 and the number
-                of seconds specified.
+    sendarp.exe [options] Destination [End Destination]
+    
+    Destination - The IP address to query or the start of the range
+    
+    End Destination - The last ip address in the range
+    
+    Option      Description
+        s           Used to specify the IP address of the interface to use
+                    as the source when sending ARP requests.
+    
+        d           Used to specify a delay between sending ARP requests.
+    
+        dr          Used to specify a random delay between 0 and the number
+                    of seconds specified.
