@@ -39,6 +39,10 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 #include <string.h>
 #include <time.h>
 
+// Need to link with some libraries
+#pragma comment(lib, "Ws2_32.lib")
+#pragma comment(lib, "iphlpapi.lib")
+
 // Prints out an error string and returns an error code
 void makeError(char *errString)
 {
